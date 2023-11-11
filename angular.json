@@ -53,7 +53,11 @@
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
-              "sourceMap": true,
+              "sourceMap": {
+                "scripts": true,
+                "styles": true,
+                "vendor": true
+              },
               "namedChunks": true
             }
           },
@@ -66,7 +70,7 @@
               "browserTarget": "myApp:build:production"
             },
             "development": {
-              "browserTarget": "myApp:build:development",
+              "browserTarget": "myApp:build:development"
             }
           },
           "defaultConfiguration": "development"
