@@ -58,7 +58,20 @@
                 "styles": true,
                 "vendor": true
               },
-              "namedChunks": true
+              "namedChunks": true,
+              "preserveSymlinks": true,
+              "allowedCommonJsDependencies": [
+                "duration-relativetimeformat",
+                "papaparse",
+                "xlsx",
+                "chroma-js",
+                "@rgrove/parse-xml",
+                "@messageformat/core",
+                "rbush",
+                "@camptocamp/ogc-client",
+                "pbf",
+                "alasql"
+              ]
             }
           },
           "defaultConfiguration": "production"
